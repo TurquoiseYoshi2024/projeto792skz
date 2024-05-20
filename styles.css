@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&family=Kalam:wght@300;400;700&family=Merienda:wght@300..900&family=Patrick+Hand&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
 :root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     --largura: 1000px;
@@ -48,7 +50,6 @@ header #banner {
     background-size: cover;
     background-image: url("img/banner.jpg");
     background-size: auto;    
-    display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -56,7 +57,8 @@ header #banner {
 header #banner h4 {
     padding: 8px 16px;
     text-transform: uppercase;
-
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: larger;
 }
 
 nav {
@@ -75,7 +77,7 @@ nav ul li {
     border-radius: 0px 50px;
     background-color: lightskyblue;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Patrick Hand", cursive;
 }
 
 nav ul li a:hover {
@@ -203,3 +205,164 @@ footer div ul li {
         padding: 0.5rem 3rem;
     }
 }
+
+section .titulo h2 {
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 8px solid lightskyblue;
+    padding-bottom: 1rem;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-style: normal;      
+}
+
+section .conteudo {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+section .conteudo .imagem {
+    width: 100%;
+}
+
+section .conteudo .imagem img {
+   width: 300px;
+}
+
+section .conteudo .texto {
+    width: 200%;
+}
+
+section .conteudo .texto p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: large;
+    font-family: "Fredoka", sans-serif;
+}
+
+section .conteudo .texto2 p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: large;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+    
+section .conteudo .texto ul li {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: large;
+    font-family: "Fredoka", sans-serif; 
+}
+
+section .titulo h3 {
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 8px solid lightskyblue;
+    padding-bottom: 1rem;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-style: normal;      
+}
+
+section .conteudo .imagem2 {
+   max-width: auto;
+}
+
+section .conteudo .imagem2 .row .column1 {
+    display: flex;
+    width: 250px;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+section .conteudo .imagem2 .row .column2 {
+    display: flex;
+    width: 250px;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+section .conteudo .imagem2 .row .column3 {
+    display: flex;
+    width: 250px;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+section .conteudo .imagem2 .row .column4 {
+    display: flex;
+    width: 250px;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+section .conteudo .imagem2 .row .column5 {
+    display: flex;
+    width: 250px;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+section .conteudo .imagem2 img {
+    width: 100%;
+}
+
+section .titulo h1 {
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 8px solid lightskyblue;
+    padding-bottom: 1rem;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-style: normal;      
+}
+
+section .conteudo .texto3 p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: large;
+    font-family: "Fredoka", sans-serif;
+}
+
+section .conteudo .texto3 ul li {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: large;
+    font-family: "Fredoka", sans-serif; 
+}
+
+section .conteudo .imagem3 {
+    width: 100%; 
+    justify-content: center;
+}
+
+section .conteudo .imagem3 img {
+   width: 300px;
+   justify-content: center
+}
+
+section .titulo h5 {
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 8px solid lightskyblue;
+    padding-bottom: 1rem;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-style: normal;      
+}
+
+section .conteudo .imagem4 {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+section .conteudo .imagem4 img {
+   width: 700px;
+   display: flex; 
+   justify-content: center;
+}
+
